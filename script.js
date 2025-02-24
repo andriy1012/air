@@ -8,7 +8,7 @@ function generateRandomMoistureContent(min, max, count) {
   }
   
   document.addEventListener('DOMContentLoaded', function() {
-    let moistureContents = generateRandomMoistureContent(0.9, 3, 30);
+    let moistureContents = generateRandomMoistureContent(0.9, 4.8, 30);
     let list = document.getElementById('moistureContentList');
     moistureContents.forEach(function(content) {
       let listItem = document.createElement('li');
